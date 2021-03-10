@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+.item {
+    background-color: gainsboro;
+    border: none;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    height:175px !important;
+    width:175px !important;
+    border-radius: 100px;
+}

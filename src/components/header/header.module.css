@@ -1,0 +1,14 @@
+.head {
+    font-size: 14px;
+    font-family: Verdana;
+    text-align: right;
+}
+
+.head li {
+    padding-bottom: 3px;
+}
+
+.head ul {
+   list-style-type: none;
+}
+

@@ -1,0 +1,52 @@
+.main h2 {
+    font-family: Verdana;
+
+}
+.films {
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana;
+
+    display: grid;
+    grid-template-areas: 'one two three'
+                          'four five six';
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+img {
+    height: 300px;
+    padding: 5px;
+    border-radius: 40px;
+}
+.main a {
+    text-decoration: None !important;
+}
+
+.main p {
+    text-decoration: None !important;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
